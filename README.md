@@ -25,7 +25,6 @@ Some of these files are quite large, so GitHub won't show their contents online.
 
 Open the [notebook](quick_look.ipynb) for a quick look at the data. Download individual zipped files from [releases](https://github.com/zygmuntz/goodbooks-10k/releases).
 
-
 ## Contents
 
 **ratings.csv** contains ratings sorted by time. It is 69MB and looks like that:
