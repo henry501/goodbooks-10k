@@ -1,4 +1,17 @@
-# goodbooks-10k
+# Making something useful from the goodbooks-10k dataset
+
+## Overview: data cleanup and processing for use in a dummy bookstore website
+
+### Cleaning the CSV files
+* Issues with ISBN and ISBN13
+* Importing into a SQLite database for easier analysis in Python
+* Script to automate getting/cleaning additional fields from the original XML data files
+
+### Processing data to make it more interesting / useful for a storefront
+* Sanitizing the description
+* Finding a useful set of genre tags
+
+## Original goodbooks-10k dataset
 
 This dataset contains six million ratings for ten thousand most popular (with most ratings) books. There are also:
 
@@ -12,7 +25,6 @@ Some of these files are quite large, so GitHub won't show their contents online.
 
 Open the [notebook](quick_look.ipynb) for a quick look at the data. Download individual zipped files from [releases](https://github.com/zygmuntz/goodbooks-10k/releases).
 
-The dataset is accessible from [Spotlight](https://maciejkula.github.io/spotlight/datasets/goodbooks.html), recommender software based on PyTorch.
 
 ## Contents
 
